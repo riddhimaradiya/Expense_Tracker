@@ -2,23 +2,6 @@
 
 A comprehensive Spring Boot-based web application for tracking personal expenses, managing budgets, and generating financial reports.
 
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Prerequisites](#prerequisites)
-- [Installation & Setup](#installation--setup)
-- [Configuration](#configuration)
-- [Project Structure](#project-structure)
-- [Running the Application](#running-the-application)
-- [API Endpoints](#api-endpoints)
-- [Database Schema](#database-schema)
-- [Contributing](#contributing)
-- [License](#license)
-
----
-
 ## 🎯 Overview
 
 The **Expense Tracker Application** is a full-stack Java Spring Boot application designed to help users:
@@ -149,8 +132,8 @@ spring.application.name=Expense-tracker
 
 # MySQL Database Configuration
 spring.datasource.url=jdbc:mysql://localhost:3306/expense_tracker_db
-spring.datasource.username=root
-spring.datasource.password=1824myworld
+spring.datasource.username=your username
+spring.datasource.password=your password
 
 # JPA/Hibernate Configuration
 spring.jpa.hibernate.ddl-auto=update
@@ -307,47 +290,7 @@ CREATE TABLE monthly_budget (
 );
 ```
 
----
 
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. **Fork** the repository
-2. **Create** a feature branch (`git checkout -b feature/AmazingFeature`)
-3. **Commit** your changes (`git commit -m 'Add some AmazingFeature'`)
-4. **Push** to the branch (`git push origin feature/AmazingFeature`)
-5. **Open** a Pull Request
-
-### Coding Standards:
-- Follow Java naming conventions
-- Write meaningful commit messages
-- Add comments for complex logic
-- Test your changes before submitting
-
----
-
-## 📝 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-## 📞 Support
-
-For issues, questions, or suggestions, please:
-- Open an issue on GitHub
-- Contact the development team
-- Check the [HELP.md](HELP.md) file for additional help
-
----
-
-## 🎓 Learning Resources
-
-- [Spring Boot Documentation](https://spring.io/projects/spring-boot)
-- [Spring Data JPA Guide](https://spring.io/projects/spring-data-jpa)
-- [MySQL Documentation](https://dev.mysql.com/doc/)
-- [RESTful API Best Practices](https://restfulapi.net/)
 
 ---
 
