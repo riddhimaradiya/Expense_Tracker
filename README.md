@@ -241,37 +241,3 @@ Access the application at: **http://localhost:8081**
 | GET | `/api/reports/category` | Get category-wise report |
 | GET | `/api/reports/summary` | Get spending summary |
 
----
-
-## 💾 Database Schema
-
-### Expenses Table
-```sql
-CREATE TABLE expenses (
-    id BIGINT PRIMARY KEY AUTO_INCREMENT,
-    title VARCHAR(255) NOT NULL,
-    amount DOUBLE NOT NULL,
-    category VARCHAR(50) NOT NULL,
-    expense_date DATE NOT NULL,
-    note TEXT,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-```
-
-### Monthly_Budget Table
-```sql
-CREATE TABLE monthly_budget (
-    id BIGINT PRIMARY KEY AUTO_INCREMENT,
-    category VARCHAR(50) NOT NULL,
-    budget_amount DOUBLE NOT NULL,
-    month_year VARCHAR(7) NOT NULL,
-    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
-);
-```
-
-
-
----
-
-**Last Updated:** April 22, 2026  
-**Version:** 0.0.1-SNAPSHOT
